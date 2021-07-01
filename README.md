@@ -42,7 +42,7 @@ php artisan migrate --seed
 php artisan serve
 ```
 
-###Herşey tamam. Şimdi http://localhost:8000 adresine girmeniz yeterli.
+### Herşey tamam. Şimdi http://localhost:8000 adresine girmeniz yeterli.
 
 
 ## Author
