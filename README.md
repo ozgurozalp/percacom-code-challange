@@ -13,10 +13,10 @@ Clone işlemi tamamlandıktan sonra ise bu komutu yazın
 cd percacom-code-challange
 ```
 
-ardından aşağıdaki komut yardımıyla projemize bir key ataması yapalım
+ardından aşağıdaki komut yardımıyla projemizin bağımlılıklarını yükleyelim ve bir key ataması yapalım
 
 ```bash
-php artisan key:generate
+composer install && php artisan key:generate
 ```
 Bu işlemden sonra <mark style="display:inline-block; padding: .2ch .3ch; border-radius:2px;font-weight:600">.env</mark> 
 dosyası içerisindeki aşağıdaki ilgili alanları kendimize göre doldurmalıyız
